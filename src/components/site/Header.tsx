@@ -1,7 +1,7 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "@/assets/velora-logo.png.asset.json";
+import logo from "@/assets/velora-logo.png";
 import { WHATSAPP_URL } from "@/lib/site";
 import { BtnAnchor } from "./Btn";
 import { cn } from "@/lib/utils";
@@ -40,7 +40,7 @@ export function Header() {
       <div className="mx-auto flex max-w-[1400px] items-center justify-between gap-6 px-5 py-4 lg:px-10">
         <Link to="/" className="flex min-w-0 items-center gap-3">
           <img
-            src={logo.url}
+            src={logo}
             alt="Velora Kitch 'N' Bath Co. logo"
             width={140}
             height={140}
