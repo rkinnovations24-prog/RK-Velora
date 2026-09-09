@@ -21,10 +21,10 @@ const policyLinks = [
 export function Footer() {
   return (
     <footer className="bg-ink text-ink-foreground">
-      <div className="mx-auto max-w-[1400px] px-5 py-16 lg:px-10 lg:py-20">
+      <div className="mx-auto max-w-[1400px] px-5 pt-16 pb-[15px] lg:px-10 lg:pt-20 lg:pb-[15px]">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1.3fr]">
           <div>
-            <img src={logo} alt="Velora Kitch 'N' Bath Co." width={200} height={200} loading="lazy" className="h-24 w-auto lg:h-32" />
+            <img src={logo} alt="Velora Kitch 'N' Bath Co." width={160} height={160} loading="lazy" className="h-20 w-auto lg:h-24" />
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-ink-foreground/60">
               Premium kitchen and bathroom solutions crafted with precision, designed for elegance and
               built to perform for a lifetime.
@@ -96,7 +96,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-ink-foreground/10">
-        <div className="mx-auto max-w-[1400px] px-5 py-6 text-center text-xs text-ink-foreground/50 lg:px-10">
+        <div className="mx-auto max-w-[1400px] px-5 pt-4 pb-[15px] text-center text-xs text-ink-foreground/50 lg:px-10">
           <p>
             © 2026 VELORA. All rights reserved. Branding by Straight Circle, Developed by{" "}
             <a
