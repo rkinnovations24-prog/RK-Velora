@@ -24,7 +24,7 @@ export function Footer() {
       <div className="mx-auto max-w-[1400px] px-5 py-16 lg:px-10 lg:py-20">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1.3fr]">
           <div>
-            <img src={logo} alt="Velora Kitch 'N' Bath Co." width={140} height={140} loading="lazy" className="h-16 w-auto" />
+            <img src={logo} alt="Velora Kitch 'N' Bath Co." width={200} height={200} loading="lazy" className="h-24 w-auto lg:h-32" />
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-ink-foreground/60">
               Premium kitchen and bathroom solutions crafted with precision, designed for elegance and
               built to perform for a lifetime.
